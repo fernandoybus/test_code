@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094DD8201B86950B0044B47E /* userSybi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 094DD81F1B86950B0044B47E /* userSybi.jpeg */; };
+		095D6E051B82F8BE001B30C1 /* PFTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D6E041B82F8BE001B30C1 /* PFTableViewCell.swift */; };
+		095D6E091B82FF38001B30C1 /* SingleContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D6E081B82FF38001B30C1 /* SingleContactViewController.swift */; };
+		095D6E101B830C90001B30C1 /* List.png in Resources */ = {isa = PBXBuildFile; fileRef = 095D6E0E1B830C90001B30C1 /* List.png */; };
+		095D6E111B830C90001B30C1 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 095D6E0F1B830C90001B30C1 /* user.png */; };
 		0969BFA81B804A2000EA34EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969BFA71B804A2000EA34EE /* AppDelegate.swift */; };
 		0969BFAA1B804A2000EA34EE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969BFA91B804A2000EA34EE /* FirstViewController.swift */; };
 		0969BFAC1B804A2000EA34EE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969BFAB1B804A2000EA34EE /* SecondViewController.swift */; };
@@ -14,6 +19,20 @@
 		0969BFB11B804A2000EA34EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0969BFB01B804A2000EA34EE /* Images.xcassets */; };
 		0969BFB41B804A2000EA34EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0969BFB21B804A2000EA34EE /* LaunchScreen.xib */; };
 		0969BFC01B804A2000EA34EE /* sybiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969BFBF1B804A2000EA34EE /* sybiTests.swift */; };
+		0969BFCC1B804CE600EA34EE /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969BFCB1B804CE600EA34EE /* ContactsTableViewController.swift */; };
+		0969BFCE1B80564A00EA34EE /* sybi.png in Resources */ = {isa = PBXBuildFile; fileRef = 0969BFCD1B80564A00EA34EE /* sybi.png */; };
+		0969BFD11B8057A900EA34EE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0969BFCF1B8057A900EA34EE /* Bolts.framework */; };
+		0969BFD21B8057A900EA34EE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0969BFD01B8057A900EA34EE /* Parse.framework */; };
+		0969BFD41B8057F200EA34EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0969BFD31B8057F200EA34EE /* AudioToolbox.framework */; };
+		0969BFD61B8057F900EA34EE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0969BFD51B8057F900EA34EE /* CFNetwork.framework */; };
+		0969BFD81B80580000EA34EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0969BFD71B80580000EA34EE /* CoreGraphics.framework */; };
+		0969BFDA1B80580700EA34EE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0969BFD91B80580700EA34EE /* CoreLocation.framework */; };
+		0969BFDC1B80580F00EA34EE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0969BFDB1B80580F00EA34EE /* QuartzCore.framework */; };
+		0969BFDE1B80581700EA34EE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0969BFDD1B80581700EA34EE /* Security.framework */; };
+		0969BFE01B80581E00EA34EE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0969BFDF1B80581E00EA34EE /* StoreKit.framework */; };
+		0969BFE21B80582500EA34EE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0969BFE11B80582500EA34EE /* SystemConfiguration.framework */; };
+		0969BFE41B80582E00EA34EE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0969BFE31B80582E00EA34EE /* libz.dylib */; };
+		0969BFE61B80583600EA34EE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0969BFE51B80583600EA34EE /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		094DD81F1B86950B0044B47E /* userSybi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userSybi.jpeg; sourceTree = "<group>"; };
+		095D6E041B82F8BE001B30C1 /* PFTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PFTableViewCell.swift; sourceTree = "<group>"; };
+		095D6E081B82FF38001B30C1 /* SingleContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleContactViewController.swift; sourceTree = "<group>"; };
+		095D6E0E1B830C90001B30C1 /* List.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List.png; sourceTree = "<group>"; };
+		095D6E0F1B830C90001B30C1 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		0969BFA21B804A2000EA34EE /* sybi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sybi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0969BFA61B804A2000EA34EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0969BFA71B804A2000EA34EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +62,20 @@
 		0969BFB91B804A2000EA34EE /* sybiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sybiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0969BFBE1B804A2000EA34EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0969BFBF1B804A2000EA34EE /* sybiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sybiTests.swift; sourceTree = "<group>"; };
+		0969BFCB1B804CE600EA34EE /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		0969BFCD1B80564A00EA34EE /* sybi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sybi.png; sourceTree = "<group>"; };
+		0969BFCF1B8057A900EA34EE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		0969BFD01B8057A900EA34EE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		0969BFD31B8057F200EA34EE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0969BFD51B8057F900EA34EE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0969BFD71B80580000EA34EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0969BFD91B80580700EA34EE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0969BFDB1B80580F00EA34EE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0969BFDD1B80581700EA34EE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0969BFDF1B80581E00EA34EE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0969BFE11B80582500EA34EE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0969BFE31B80582E00EA34EE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0969BFE51B80583600EA34EE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +83,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0969BFE61B80583600EA34EE /* libsqlite3.dylib in Frameworks */,
+				0969BFE41B80582E00EA34EE /* libz.dylib in Frameworks */,
+				0969BFE21B80582500EA34EE /* SystemConfiguration.framework in Frameworks */,
+				0969BFE01B80581E00EA34EE /* StoreKit.framework in Frameworks */,
+				0969BFDE1B80581700EA34EE /* Security.framework in Frameworks */,
+				0969BFDC1B80580F00EA34EE /* QuartzCore.framework in Frameworks */,
+				0969BFDA1B80580700EA34EE /* CoreLocation.framework in Frameworks */,
+				0969BFD81B80580000EA34EE /* CoreGraphics.framework in Frameworks */,
+				0969BFD61B8057F900EA34EE /* CFNetwork.framework in Frameworks */,
+				0969BFD41B8057F200EA34EE /* AudioToolbox.framework in Frameworks */,
+				0969BFD21B8057A900EA34EE /* Parse.framework in Frameworks */,
+				0969BFD11B8057A900EA34EE /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +132,26 @@
 				0969BFA71B804A2000EA34EE /* AppDelegate.swift */,
 				0969BFA91B804A2000EA34EE /* FirstViewController.swift */,
 				0969BFAB1B804A2000EA34EE /* SecondViewController.swift */,
+				0969BFCB1B804CE600EA34EE /* ContactsTableViewController.swift */,
+				095D6E041B82F8BE001B30C1 /* PFTableViewCell.swift */,
+				095D6E081B82FF38001B30C1 /* SingleContactViewController.swift */,
+				0969BFCD1B80564A00EA34EE /* sybi.png */,
+				095D6E0E1B830C90001B30C1 /* List.png */,
+				095D6E0F1B830C90001B30C1 /* user.png */,
+				094DD81F1B86950B0044B47E /* userSybi.jpeg */,
 				0969BFAD1B804A2000EA34EE /* Main.storyboard */,
+				0969BFE51B80583600EA34EE /* libsqlite3.dylib */,
+				0969BFE31B80582E00EA34EE /* libz.dylib */,
+				0969BFE11B80582500EA34EE /* SystemConfiguration.framework */,
+				0969BFDF1B80581E00EA34EE /* StoreKit.framework */,
+				0969BFDD1B80581700EA34EE /* Security.framework */,
+				0969BFDB1B80580F00EA34EE /* QuartzCore.framework */,
+				0969BFD91B80580700EA34EE /* CoreLocation.framework */,
+				0969BFD71B80580000EA34EE /* CoreGraphics.framework */,
+				0969BFD51B8057F900EA34EE /* CFNetwork.framework */,
+				0969BFD31B8057F200EA34EE /* AudioToolbox.framework */,
+				0969BFCF1B8057A900EA34EE /* Bolts.framework */,
+				0969BFD01B8057A900EA34EE /* Parse.framework */,
 				0969BFB01B804A2000EA34EE /* Images.xcassets */,
 				0969BFB21B804A2000EA34EE /* LaunchScreen.xib */,
 				0969BFA51B804A2000EA34EE /* Supporting Files */,
@@ -164,6 +233,12 @@
 				TargetAttributes = {
 					0969BFA11B804A2000EA34EE = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 36C5726JJL;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					0969BFB81B804A2000EA34EE = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -197,6 +272,10 @@
 			files = (
 				0969BFAF1B804A2000EA34EE /* Main.storyboard in Resources */,
 				0969BFB41B804A2000EA34EE /* LaunchScreen.xib in Resources */,
+				095D6E111B830C90001B30C1 /* user.png in Resources */,
+				095D6E101B830C90001B30C1 /* List.png in Resources */,
+				094DD8201B86950B0044B47E /* userSybi.jpeg in Resources */,
+				0969BFCE1B80564A00EA34EE /* sybi.png in Resources */,
 				0969BFB11B804A2000EA34EE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,8 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0969BFAC1B804A2000EA34EE /* SecondViewController.swift in Sources */,
+				095D6E091B82FF38001B30C1 /* SingleContactViewController.swift in Sources */,
 				0969BFA81B804A2000EA34EE /* AppDelegate.swift in Sources */,
+				0969BFCC1B804CE600EA34EE /* ContactsTableViewController.swift in Sources */,
 				0969BFAA1B804A2000EA34EE /* FirstViewController.swift in Sources */,
+				095D6E051B82F8BE001B30C1 /* PFTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +358,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -295,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -320,7 +403,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -333,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -344,9 +428,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iOS Distribution: Fernando Azevedo";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Distribution: Fernando Azevedo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sybi",
+				);
 				INFOPLIST_FILE = sybi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b35d9670-9dc8-42ed-b9bb-f7eb6b118ea0";
 			};
 			name = Debug;
 		};
@@ -354,9 +445,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iOS Distribution: Fernando Azevedo";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Distribution: Fernando Azevedo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sybi",
+				);
 				INFOPLIST_FILE = sybi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b35d9670-9dc8-42ed-b9bb-f7eb6b118ea0";
 			};
 			name = Release;
 		};
@@ -413,6 +511,7 @@
 				0969BFC51B804A2000EA34EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0969BFC61B804A2000EA34EE /* Build configuration list for PBXNativeTarget "sybiTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +520,7 @@
 				0969BFC81B804A2000EA34EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
