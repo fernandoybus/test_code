@@ -428,8 +428,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iOS Distribution: Fernando Azevedo";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Distribution: Fernando Azevedo";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sybi",
@@ -437,7 +437,7 @@
 				INFOPLIST_FILE = sybi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b35d9670-9dc8-42ed-b9bb-f7eb6b118ea0";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -445,8 +445,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iOS Distribution: Fernando Azevedo";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Distribution: Fernando Azevedo";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sybi",
@@ -454,7 +454,7 @@
 				INFOPLIST_FILE = sybi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b35d9670-9dc8-42ed-b9bb-f7eb6b118ea0";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

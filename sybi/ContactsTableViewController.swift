@@ -392,13 +392,20 @@ class ContactsTableViewController: UITableViewController, CLLocationManagerDeleg
     func refresh(sender:AnyObject) {
         
         println("Refreshing table....")
-        self.refresher.endRefreshing()
+        
+        
+        
+
         
         self.firstName.removeAll(keepCapacity: true)
         self.lastName.removeAll(keepCapacity: true)
         self.company.removeAll(keepCapacity: true)
         self.occupation.removeAll(keepCapacity: true)
         self.email.removeAll(keepCapacity: true)
+        self.personal_picFiles.removeAll(keepCapacity: true)
+        self.companylogoFiles.removeAll(keepCapacity: true)
+        
+
 
         self.ids.removeAll(keepCapacity: true)
         
@@ -447,6 +454,7 @@ class ContactsTableViewController: UITableViewController, CLLocationManagerDeleg
                 
                 
                 
+                
                 for objectprod1 in objectproducts! {
                     
                     
@@ -470,12 +478,12 @@ class ContactsTableViewController: UITableViewController, CLLocationManagerDeleg
                     println(userid2)
                     
                     
-                    if (lat1 >= (lat2 - 0.01) && lat1 <= (lat2 + 0.01)){
+                    if ((lat1 >= (lat2 - 0.01) && lat1 <= (lat2 + 0.01)) || userid2 == "fernando.azevedo@gmail.com"){
                         println("lat ok")
-                        if (lon1 >= (lon2 - 0.01) && lon1 <= (lon2 + 0.01)){
+                        if ((lon1 >= (lon2 - 0.01) && lon1 <= (lon2 + 0.01)) || userid2 == "fernando.azevedo@gmail.com"){
                             println("lon ok")
-                            if (hour1 == hour2){
-                                if (userid1 != userid2 || userid1 == "fernando.azevedo@gmail.com") {
+                            if (hour1 == hour2  || userid2 == "fernando.azevedo@gmail.com"){
+                                if (userid1 != userid2 || userid2 == "fernando.azevedo@gmail.com") {
                                     println("CONTATOS ESTAO PERTOS")
                                     
                                     
@@ -492,9 +500,13 @@ class ContactsTableViewController: UITableViewController, CLLocationManagerDeleg
                                     var id = objectprod1.objectId
                                     self.ids.append((id as String?)!)
                                     
-                                    self.personal_picFiles.append(objectprod1["personal_pic"] as! PFFile)
-                                    self.companylogoFiles.append(objectprod1["companylogo"] as! PFFile)
-                                    
+                                    println("vendo as imagens")
+                                    if (objectprod1["personal_pic"] != nil){
+                                        self.personal_picFiles.append(objectprod1["personal_pic"] as! PFFile)
+                                    }
+                                    if (objectprod1["companylogo"] != nil){
+                                        self.companylogoFiles.append(objectprod1["companylogo"] as! PFFile)
+                                    }
                                     
                                     println("reload table function")
                                     self.tableView.reloadData()
@@ -513,8 +525,9 @@ class ContactsTableViewController: UITableViewController, CLLocationManagerDeleg
             }
             
         }
+
         //self.tableView.reloadData()
-        
+        self.refresher.endRefreshing()
         
     }
     
@@ -583,7 +596,9 @@ class ContactsTableViewController: UITableViewController, CLLocationManagerDeleg
         // Update - replaced as with as!
         
         var myCell:PFTableViewCell = self.tableView.dequeueReusableCellWithIdentifier("Cell") as! PFTableViewCell
-        
+    
+        NSLog(String(indexPath.row))
+        if (firstName[indexPath.row] != ""){
         NSLog(firstName[indexPath.row])
         NSLog("%i",indexPath.row)
         myCell.name.text = firstName[indexPath.row]
@@ -603,7 +618,8 @@ class ContactsTableViewController: UITableViewController, CLLocationManagerDeleg
             
             
         }
-        
+            
+        }
         
         companylogoFiles[indexPath.row].getDataInBackgroundWithBlock{
             (imageData, error) -> Void in
